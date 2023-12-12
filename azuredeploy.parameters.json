@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "aksCluster"
+        },
+        "location": {
+            "value": "canadacentral"
+        },
+        "osDiskSizeGB": {
+            "value": 30
+        },
+        "linuxAdminUsername": {
+            "value": "Rabbik" 
+        },
+        "dnsPrefix": {
+            "value": "Rabbikdns" 
+        },
+        "agentCount": {
+            "value": 1
+        },
+        "agentVMSize": {
+            "value": "standard_d2s_v3"
+        },
+       
+        "sshRSAPublicKey": {
+            "value": "" 
+        }
+    } 
+}
